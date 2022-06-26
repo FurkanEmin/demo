@@ -32034,10 +32034,10 @@ q=p.a4(0,q.gu(q))}return A.ac9(A.adB(s.a,s.c,B.aQ,null),q)}}
 A.qO.prototype={
 aA(){return new A.F3(B.n)}}
 A.BV.prototype={
-M(a){var s=null,r=A.a3G("assets/lightLogo.png")
+M(a){var s=null,r=A.a3G("images/lightLogo.png")
 return new A.qB(new A.oJ(B.Bn,B.D5,s,s,B.l,new A.qO(s),B.Je,!0,!1,r,1500,B.w0,s,s,s),"by Furkan Emin",!1,s)}}
 A.F3.prototype={
-M(a){var s=null,r=A.xB(s,A.a3G("LogoText.png"),s,s,40,s,s,s)
+M(a){var s=null,r=A.xB(s,A.a3G("images/LogoText.png"),s,s,40,s,s,s)
 return A.a4G(new A.oW(r,B.l,new A.FV(80,s,1/0,80),80,s),B.l,new A.ft(B.L,s,s,A.wW(A.xB(s,A.nj(A.pv(new A.oL(A.a([new A.pV("Coming Soon !",s,B.wl)],t.rr),new A.XO(),!0,s),s,B.bq,!0,B.Gz,s,s,B.ah),s,250),s,s,s,new A.bc(20,20,20,20),s,s),s,s),s))}}
 A.XO.prototype={
 $0(){A.jH("Tap Event")},
