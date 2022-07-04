@@ -4,10 +4,10 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "f7d7527ff754e4bbc4f9cdf6dbbe60b6",
-"index.html": "7b8b275c3f57f03c754706809bd96239",
-"/": "7b8b275c3f57f03c754706809bd96239",
-"main.dart.js": "5feafacf29b01a489e8cf8aad61f7fbc",
-"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"index.html": "a92bfebc8b1ffd090398728adb66fca4",
+"/": "a92bfebc8b1ffd090398728adb66fca4",
+"main.dart.js": "edb2afeb70eab5094d71983512d58a30",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
@@ -66,17 +66,20 @@ const RESOURCES = {
 ".git/objects/06/8202be8804cdd9e32696e82c7006e0e2a187d9": "e8137ea7fc40f6553e161cef9fdb843a",
 ".git/objects/39/c074fc7a805065eb53936969e322ac8317505b": "8037e5795293ad9b936edd1ab0f0a687",
 ".git/objects/99/88baf14402296726aea7200544591938b5f5f2": "940b03b91dbfeb1a42acdb6d13864857",
+".git/objects/52/b359cc77a661733d9e6ecc850b8dc30db8e392": "6f94593f15dc69e0f67b3517143580c1",
 ".git/objects/0f/b6a6669b8bd372dfa6d3f10a83009df83d8d92": "07d7ac4a37a855c0bf883c38c818c8cb",
 ".git/objects/bf/b88716bd0ecdca3f05d078b71bd9e3fa34614b": "11942bed9d9ac539210347d432d5f2aa",
 ".git/objects/ba/74ffa6513629b15776917c472f307814305941": "87d32f9091ed3d05c3b83b664459821a",
 ".git/objects/dd/087f974046bc63a6da7c0c618c12965d008a58": "461d526ef1dd02404ea0ee4fe6d0a8bc",
 ".git/objects/b6/b24417624c8be6601e0b55fe286e8250a97cf5": "aa893034c321ea70cdbd00208e78c5e7",
+".git/objects/a9/c7cf77e607aee17574dc65512742d16a97115a": "e56e693f4fce8767e8ea384b779bc6ba",
 ".git/objects/d2/0cabdea3e5ff30c89e5675057676010332a4a0": "a7e42ac915429ceb62622e85e1a48d58",
 ".git/objects/b7/49bfef07473333cf1dd31e9eed89862a5d52aa": "36b4020dca303986cad10924774fb5dc",
 ".git/objects/de/28db843d7df6ed23b8a7526f6b6b4a83425fe7": "797e4f7b3d8dced098c51679ff33e848",
 ".git/objects/b9/2a0d854da9a8f73216c4a0ef07a0f0a44e4373": "f62d1eb7f51165e2a6d2ef1921f976f3",
 ".git/objects/a1/3837a12450aceaa5c8e807c32e781831d67a8f": "bfe4910ea01eb3d69e9520c3b42a0adf",
 ".git/objects/cd/22076013ce8b84475eae9bb4cd6c60b5460fbe": "81c620e2d6cbe5638d6c90ee25886389",
+".git/objects/f7/aa210761e9bfda81fab18e457331cc948110ac": "ba6d465c20157d44d5079da5dcee7e87",
 ".git/objects/e8/7be17939ee36f0708fe36c4e4916a7cc642e0d": "f36ce7fd7fa0112f099220d412c37837",
 ".git/objects/c5/90b393c3ab1a5ee67d0c06d8709ad1fc571454": "d25925ef89d202ddcdedae40e89cb070",
 ".git/objects/e9/e575d0b36ebd696294496017834c26b62e1505": "8eca52e53d59927cc7c00a13888ea67b",
@@ -99,9 +102,9 @@ const RESOURCES = {
 ".git/objects/8e/2e3bf1ba5413929fdec002ffbc7d861c2d1f30": "20da4794d71e9df49fecd7624ebf0583",
 ".git/HEAD": "cf7dd3ce51958c5f13fece957cc417fb",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "37c62b9bc3691c5d20edbf25c46fa0b9",
-".git/logs/refs/heads/main": "9139426dffed3bfc6f7f6f58fb551a04",
-".git/logs/refs/remotes/origin/main": "e15575b40dce9b6d1adb73bc9e49b0f3",
+".git/logs/HEAD": "ccfd24de5c80e67bc514d498bc75663c",
+".git/logs/refs/heads/main": "7f7879b3a082e4161ecdf1cf9480eaf9",
+".git/logs/refs/remotes/origin/main": "22e7a5e8c6445b1ded2937423891b519",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/hooks/commit-msg.sample": "579a3c1e12a1e74a98169175fb913012",
 ".git/hooks/pre-rebase.sample": "56e45f2bcbc8226d2b4200f7c46371bf",
@@ -115,20 +118,22 @@ const RESOURCES = {
 ".git/hooks/pre-applypatch.sample": "054f9ffb8bfe04a599751cc757226dda",
 ".git/hooks/pre-push.sample": "3c5989301dd4b949dfa1f43738a22819",
 ".git/hooks/update.sample": "7bf1fcc5f411e5ad68c59b68661660ed",
-".git/refs/heads/main": "d6e2c83ab7c7199991ffa20dd1645c28",
-".git/refs/remotes/origin/main": "d6e2c83ab7c7199991ffa20dd1645c28",
-".git/index": "30f84630592b6588de64997cdf3e7252",
-".git/COMMIT_EDITMSG": "01d8dbbeb2e678cdbca8ff34dec3601f",
+".git/refs/heads/main": "607dca8c7f22bfb5c56ab46321104069",
+".git/refs/remotes/origin/main": "607dca8c7f22bfb5c56ab46321104069",
+".git/index": "84c801aeebb3c5051f346916772c2c84",
+".git/COMMIT_EDITMSG": "e18fe304012eee831ae26596cbfeb1fa",
 "assets/images/lightLogo.png": "5bd815f0be3f2927eb2b11e3bb61166d",
 "assets/images/LogoText.png": "27d8d119b2d8508abf2b60c1a9561c03",
 "assets/images/splashAnimationLogo.gif": "b90040db6835fcef77ad2a1d3fd101c7",
 "assets/images/LogoAnimatonWithText.jpg": "45b85bb6d50b1974f0f272d975b2a042",
 "assets/images/Untitled-logo-1.jpg": "ed1d2dd744e0b2c6d18a4f6d8774f459",
+"assets/images/imageEmpty.png": "05d5f74f083bf4c5e4a898edcbbaee62",
 "assets/images/splashLogoAnimatonWithText.gif": "dd75d92615c1d01839479cf351dafb39",
-"assets/AssetManifest.json": "e6456a60411c3a695f0821aff10d502c",
-"assets/NOTICES": "025131d74823280adc84bdde36cc22b3",
+"assets/AssetManifest.json": "ed5d76137621efa8488db651ec773620",
+"assets/NOTICES": "2a99e5e3f7c40aea2b6b594fa85a23e9",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/shaders/ink_sparkle.frag": "8c71f7c719881172d5b0ff7d66cf1b6d",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
 "canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
@@ -141,7 +146,6 @@ const RESOURCES = {
 const CORE = [
   "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -240,9 +244,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
